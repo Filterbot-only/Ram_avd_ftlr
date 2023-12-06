@@ -389,7 +389,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 g = short_url(f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/3e1b19a7444bc7ab9dd94.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
+                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/3a009ed64f19ad5ad6aca.jpg', caption = f"<b>==>Title : <code>{files.file_name}</code>\n\n==> File_Size  {get_size(files.file_size)}\n\n #Note: Idu Telegram File dhaan Website Ula Poii edukanum ‼️ Epdi Edukuradhu nu therilaya? Killa How to download irukum Paruga</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
